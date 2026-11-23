@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_7/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="KENBAIKI" systemDiffCode="A" systemCode="10" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="02" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="ja" countryIsoCode="JP"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2026" month="11" day="22"/>
+        <dmTitle>
+          <techName>指定席券売機 操作マニュアル（例）</techName>
+          <infoName>きっぷの払い戻し</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="K0002"/>
+      <originator enterpriseCode="K0002"/>
+      <applic>
+        <displayText>
+          <simplePara>すべて</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="KENBAIKI" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <para>買ったきっぷを券売機で払い戻すときの、できることと条件。</para>
+      <levelledPara id="sec-refund-cond">
+        <title>払い戻せるきっぷ</title>
+        <para>この券売機で買った、使う前のきっぷを払い戻せます。</para>
+        <para><randomList>
+            <listItem>
+              <para>乗車券</para>
+            </listItem>
+            <listItem>
+              <para>指定席券</para>
+            </listItem>
+          </randomList></para>
+        <note>
+          <notePara>窓口で買ったきっぷは、窓口で払い戻します。</notePara>
+        </note>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>
